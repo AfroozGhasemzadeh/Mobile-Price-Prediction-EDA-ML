@@ -10,14 +10,20 @@ This project aims to:
 # MobilePriceClassification/
 │
 ├── 01_Data Processing.ipynb
+
 ├── 02_Train Dataset Visualization.ipynb
+
 ├── 03_Test Dataset Visualization.ipynb
+
 ├── 04_Mobile Price Modelling.ipynb
 │
 ├── Figures-Mobile Price/
 │       ├── 1/
+
 │       └── Train/
+
 │       ├── Test/
+
 │       └── Modelling/
 │
 └── README.md
@@ -38,7 +44,7 @@ The project uses a combination of data analysis, visualization, and machine lear
   • 	Metrics: accuracy, F1, ROC-AUC, confusion matrix, classification report
 • 	plotly.io — interactive plotting
 # Notebook
-  # 1: Data Processing
+ # Notebook 1: Data Processing
 This notebook prepares the raw Kaggle dataset for analysis and modeling.
 It includes:
 - Inspecting feature types
@@ -49,17 +55,17 @@ It includes:
 - Scaling numerical features
 - Saving processed datasets (df4_train, df4_test)
 These saved files allow the next notebooks to run efficiently without repeating preprocessing.
-  #  Notebook 2: Train Dataset Visualization
+  # Notebook 2: Train Dataset Visualization
 This notebook explores the processed training dataset to understand feature behavior and their relationship with the target variable.
 It includes:
 - Boxplots and KDE plots for numerical features
 - Count plots and pie charts for categorical features
 - Visual analysis of how features vary across price ranges
 - All figures saved in Figures-Mobile Price/Train/
-  #  Notebook 3: Test Dataset Visualization
+  # Notebook 3: Test Dataset Visualization
 A parallel EDA is performed on the test dataset to ensure consistency with the training data.
 All plots are saved in Figures-Mobile Price/Test/.
- #  Notebook 4: Mobile Price Modeling
+  # Notebook 4: Mobile Price Modeling
 This notebook builds and evaluates machine learning models to classify mobile phones into price categories.
 Three algorithms are compared:
 - Decision Tree
