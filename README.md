@@ -11,6 +11,7 @@ This project aims to:
 # Repository Structure
 
 MobilePriceClassification/
+
 │
 
 ├── 01_Data Processing.ipynb
@@ -20,9 +21,11 @@ MobilePriceClassification/
 ├── 03_Test Dataset Visualization.ipynb
 
 ├── 04_Mobile Price Modelling.ipynb
+
 │
 
 ├── Figures-Mobile Price/
+
 │       ├── 1/
 
 │       └── Train/
@@ -30,9 +33,11 @@ MobilePriceClassification/
 │       ├── Test/
 
 │       └── Modelling/
+
 │
 
 └── README.md
+
 This structure keeps the project clean, modular, and easy to navigate.
 # Technologies & Libraries Used
 The project uses a combination of data analysis, visualization, and machine learning libraries:
