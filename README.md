@@ -7,8 +7,12 @@ This project aims to:
 • 	Explore the relationship between mobile features and price range
 • 	Build a machine learning model capable of predicting price categories
 • 	Compare multiple algorithms to identify the most effective one
-# MobilePriceClassification/
+
+# Repository Structure
+
+MobilePriceClassification/
 │
+
 ├── 01_Data Processing.ipynb
 
 ├── 02_Train Dataset Visualization.ipynb
@@ -17,6 +21,7 @@ This project aims to:
 
 ├── 04_Mobile Price Modelling.ipynb
 │
+
 ├── Figures-Mobile Price/
 │       ├── 1/
 
@@ -26,6 +31,7 @@ This project aims to:
 
 │       └── Modelling/
 │
+
 └── README.md
 This structure keeps the project clean, modular, and easy to navigate.
 # Technologies & Libraries Used
@@ -43,8 +49,8 @@ The project uses a combination of data analysis, visualization, and machine lear
   • 	Pipeline
   • 	Metrics: accuracy, F1, ROC-AUC, confusion matrix, classification report
 • 	plotly.io — interactive plotting
-# Notebook
- # Notebook 1: Data Processing
+# Notebooks
+  # Notebook 1: Data Processing
 This notebook prepares the raw Kaggle dataset for analysis and modeling.
 It includes:
 - Inspecting feature types
